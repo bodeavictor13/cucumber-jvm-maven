@@ -25,7 +25,7 @@ public class CalculatorSteps {
 
     @When("^I add (\\d+) and (\\d+)$")
     public void i_add_and(int arg1, int arg2) throws Throwable {
-        //calculator.add(arg1, arg2);
+        calculator.add(arg1, arg2);
     }
 
     @Then("^the result should be (\\d+)$")
