@@ -30,7 +30,7 @@ public class CalculatorSteps {
 
     @Then("^the result should be (\\d+)$")
     public void the_result_should_be(int result) {
-        throw new RuntimeException("aaa");
+       // throw new RuntimeException("aaa");
        // throw new IllegalArgumentException("localDate= cannot be in the future");
 //            List names = new ArrayList<>();
 //            names.add("Eric");
@@ -54,6 +54,6 @@ public class CalculatorSteps {
 //        }
         //throw new NoSuchMethodException("sss");
         //throw new InvocationTargetException(new Throwable());
-        //assertEquals(result, calculator.getResult());
+        assertEquals(result, calculator.getResult());
     }
 }
