@@ -1,6 +1,6 @@
 Feature: Calculator
   As a user
-  I want to use a calculator
+  I want to use one calculator
   So that I don't need to calculate myself
 
   Scenario: Add two numbers
